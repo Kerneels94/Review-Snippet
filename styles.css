@@ -1,0 +1,100 @@
+:root {
+  /* Background colors */
+  --background-color-dark: #262626;
+  --background-color-light: #fff;
+  --background-color-orangered: #ff4500;
+  /* Text colors */
+  --text-color-dark: #262626;
+  --text-color-light: #fff;
+  --text-color-green: #90ee90;
+  /* Shadow */
+  /* Padding */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+  opacity: 1;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: lightgreen;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.5;
+  margin: 0.5em 0;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+/* Main styling */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 2rem;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 50%;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.content img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.content p {
+  font-size: 1.4rem;
+}
+
+button {
+  border: none;
+  padding: 1rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background-color: #90ee90;
+  border-radius: 1rem;
+}
